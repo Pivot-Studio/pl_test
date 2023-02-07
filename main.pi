@@ -1,0 +1,5 @@
+use std::io;
+fn simple_test() i64 {
+    io::printi64ln(666);
+    return 0;
+}
