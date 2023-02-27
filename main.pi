@@ -1,5 +1,6 @@
-use std::io;
-fn simple_test() i64 {
-    io::printi64ln(666);
+use core::panic;
+pub fn simple_test() i64 {
+    let a = 100;
+    panic::assert(a == 100);
     return 0;
 }
